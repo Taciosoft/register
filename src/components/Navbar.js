@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ModalLogin from './ModalLogin'
 
 
 class Navbar extends Component {
@@ -41,10 +42,7 @@ class Navbar extends Component {
                     <div className="navbar-item">
                         <div className="field is-grouped">
                             <p className="control">
-                                <a className="button is-success">
-                                 <span className="icon"><i class="far fa-user-circle"></i></span>
-                                 <span>Admin</span>
-                                </a>
+                                <ModalLogin/>
                             </p>
                             <p className="control">
                              <a className="button is-primary" href="http://www.nomklao.or.th/dl/application.pdf">

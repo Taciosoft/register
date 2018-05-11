@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';
+
+.title {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+.twoInput {
+    display: flex;
+}
