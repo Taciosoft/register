@@ -10,7 +10,7 @@ class ImgUpload extends Component {
       previewVisible: false,
       previewImage: '',
       fileList: [{
-        uid: -1,
+        uid: -0,
         name: 'xxx.png',
         status: 'done',
         url: 'http://sripatumstudio.com/images/gallery/nt/nt-bu-w2.jpg',
@@ -43,6 +43,8 @@ class ImgUpload extends Component {
             listType="picture-card"
             fileList={fileList}
             onPreview={this.handlePreview}
+
+            
             onChange={this.handleChange}
           >
             {fileList.length >= 3 ? null : uploadButton}

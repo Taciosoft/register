@@ -22,7 +22,7 @@ class  Container extends Component {
                     <Divider/>
                     <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">คำนำหน้าชื่อ</label>
+                            <label className="label"><span className="taginput">คำนำหน้าชื่อ</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -45,7 +45,7 @@ class  Container extends Component {
                         
                     <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">ชื่อ-นามสกุล</label>
+                            <label className="label"><span className="taginput">ชื่อ-นามสกุล</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -60,7 +60,7 @@ class  Container extends Component {
                     </div> 
                      <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">National ID</label>
+                            <label className="label"><span className="taginput">National ID</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -76,7 +76,7 @@ class  Container extends Component {
 
                     <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">สัญชาติ</label>
+                            <label className="label"><span className="taginput">สัญชาติ</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -97,7 +97,7 @@ class  Container extends Component {
                     </div>
                     <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">ศาสนา</label>
+                            <label className="label"><span className="taginput">ศาสนา</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -118,12 +118,12 @@ class  Container extends Component {
                     </div>
                      <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">วดป.เกิด</label>
+                            <label className="label"><span className="taginput">วดป.เกิด</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
                             <p className="control is-expanded has-icons-left">
-                                <DatePicker defaultValue={moment('2015/01/01', dateFormat)} format={dateFormat} />
+                                <DatePicker defaultValue={moment('2018/01/01', dateFormat)} format={dateFormat} />
                                 <span className="icon is-small is-left">
                                 
                                 </span>
@@ -134,7 +134,7 @@ class  Container extends Component {
 
                     <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">อาชีพปัจจุบัน</label>
+                            <label className="label"><span className="taginput">อาชีพปัจจุบัน</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -158,7 +158,7 @@ class  Container extends Component {
                  </div>
                  <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">รูปถ่าย</label>
+                            <label className="label"><span className="taginput">รูปถ่าย</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -178,7 +178,7 @@ class  Container extends Component {
                     <Divider />
                     <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">ที่อยู่ตามบัตร</label>
+                            <label className="label"><span className="taginput">ที่อยู่ตามบัตร</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -188,7 +188,7 @@ class  Container extends Component {
                     </div>
                     <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">ที่อยู่ปัจจุบัน</label>
+                            <label className="label"><span className="taginput">ที่อยู่ปัจจุบัน</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -198,7 +198,7 @@ class  Container extends Component {
                     </div>
                     <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">โทรศัพท์</label>
+                            <label className="label"><span className="taginput">โทรศัพท์</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -213,7 +213,7 @@ class  Container extends Component {
                     </div>
                     <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">FAX</label>
+                            <label className="label"><span className="taginput">FAX</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -228,7 +228,7 @@ class  Container extends Component {
                     </div>
                     <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">Email</label>
+                            <label className="label"><span className="taginput">Email</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -243,7 +243,7 @@ class  Container extends Component {
                     </div>
                     <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">Line ID</label>
+                            <label className="label"><span className="taginput">Line ID</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
@@ -259,7 +259,7 @@ class  Container extends Component {
 
                     <div className="field is-horizontal">
                         <div className="field-label is-normal">
-                            <label className="label">หมายเหตุ</label>
+                            <label className="label"><span className="taginput">หมายเหตุ</span></label>
                         </div>
                         <div className="field-body">
                             <div className="field">
