@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ModalLogin from './ModalLogin'
+import './MyComponents.css';
 
 
 class Navbar extends Component {
@@ -18,8 +19,8 @@ class Navbar extends Component {
                     </div>
                 </div>
                 <div id="navbarExampleTransparentExample" className="navbar-menu">
-                <div className="navbar-start">
-                <a className="navbar-item" href="https://bulma.io/">หน้าหลัก</a>
+                <div className="navbar-start" style={{fontSize:'18px'}}>
+                <a className="navbar-item" href="/">หน้าหลัก</a>
                 <div className="navbar-item has-dropdown is-hoverable">
                     <a className="navbar-link" href="/documentation/overview/start/">การจัดการ</a>
                     <div className="navbar-dropdown is-boxed">
@@ -38,9 +39,10 @@ class Navbar extends Component {
                 </div>
                 </div>
                 </div>
+
                 <div className="navbar-end">
                     <div className="navbar-item">
-                        <div className="field is-grouped">
+                        <div className="field is-grouped" style={{paddingTop:'10px'}}>
                             <p className="control">
                                 <ModalLogin/>
                             </p>

@@ -9,7 +9,6 @@ import Footer from './Footer'
 const { MonthPicker, RangePicker } = DatePicker;
 const dateFormat = 'YYYY/MM/DD';
 
-
 class  Container extends Component {
 
     render() { 

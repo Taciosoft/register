@@ -23,16 +23,40 @@ import { Modal, Button } from 'antd';
       render() {
         return (
           <div>
-            <Button type="primary" onClick={this.showModal}>Open</Button>
+
+          <a className="button is-success" onClick={this.showModal}>
+              <span className="icon"><i className="far fa-user-circle"></i></span>
+              <span>Admin</span>
+          </a>
             <Modal
-              title="Basic Modal"
+              title="เข้าสู่ระบบ"
               visible={this.state.visible}
               onOk={this.handleOk}
               onCancel={this.handleCancel}
             >
-              <p>Some contents...</p>
-              <p>Some contents...</p>
-              <p>Some contents...</p>
+              <div className="field">
+  <p className="control has-icons-left has-icons-right">
+    <input className="input" type="text" placeholder="Username"/>
+    <span className="icon is-small is-left">
+      <i className="far fa-user-circle"></i>
+    </span>
+  </p>
+</div>
+<div className="field">
+  <p className="control has-icons-left">
+    <input className="input" type="password" placeholder="Password"/>
+    <span className="icon is-small is-left">
+      <i className="fas fa-lock"></i>
+    </span>
+  </p>
+</div>
+<div className="field">
+  <p className="control">
+    <button className="button is-success">
+      Login
+    </button>
+  </p>
+</div>
             </Modal>
           </div>
         );
